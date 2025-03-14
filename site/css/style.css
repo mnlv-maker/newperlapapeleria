@@ -11,6 +11,29 @@
 .bg-primary h1, .context-dark h2, .bg-gray-700 h2, .bg-primary h2, .context-dark h3, .bg-gray-700 h3, .bg-primary h3, .context-dark h4, .bg-gray-700 h4, .bg-primary h4, .context-dark h5, .bg-gray-700 h5, .bg-primary h5, .context-dark h6, .bg-gray-700 h6, .bg-primary h6, .context-dark [class^='heading-'], .bg-gray-700 [class^='heading-'], .bg-primary [class^='heading-'] {
 	color: #ffffff;
 }
+.image-section {
+    padding-bottom: 80px; /* Espacio entre secciones */
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.wow {
+    animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 .context-dark p, .bg-gray-700 p, .bg-primary p {
 	color: rgba(255, 255, 255, 0.4);
